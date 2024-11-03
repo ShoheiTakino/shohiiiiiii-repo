@@ -1,9 +1,12 @@
-name: cron
-on: 
-    schedule:
-        - cron: '*/15 * * * *'
-jobs:
-    run: 
-        runs-on: ubuntu-latest
-        steps: 
-            - run: date
+# This is cron action
+# Do not dispatch 
+
+# name: cron
+# on: 
+#     schedule:
+#         - cron: '*/15 * * * *'
+# jobs:
+#     run: 
+#         runs-on: ubuntu-latest
+#         steps: 
+#             - run: date
