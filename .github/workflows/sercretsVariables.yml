@@ -1,0 +1,10 @@
+name: Sercrets
+on: push
+jobs:
+    print:
+        runs-on: ubuntu-latest
+        env:
+          SuperSercrets: ${{ secrets.PASSWORD }}
+        steps:
+            - run: echo "#{SuperSercrets}"                          # ログ出力はマスクされる
+            - run: echo "#{SuperSercrets:0:1} ${SuperSercrets#?}"   # ログ出力はマスクされない
