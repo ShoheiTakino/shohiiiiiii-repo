@@ -1,4 +1,4 @@
-name: Hash Functions
+name: Condition
 on: push
 jobs:
     skip-or-run:
