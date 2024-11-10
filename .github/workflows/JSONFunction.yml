@@ -5,5 +5,5 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - run: echo "${CONTEXT}"
-            env:
+        env:
                 CONTEXT: ${{ toJSON(github) }} # githubコンテキストをJSON文字列でダンプ
