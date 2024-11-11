@@ -7,7 +7,4 @@ jobs:
             - run: |
                 echo "## Shohiiiiiii Title :rocket:" >> "${GITHUB_STEP_SUMMURY}"
                 echo " - first line " >> "${GITHUB_STEP_SUMMURY}"
-                echo "
-                > [!IMPORTANT] 
-                > shohiiiiiii
-                " >> "${GITHUB_STEP_SUMMURY}"
+                echo "- shohiiiiiii" >> "${GITHUB_STEP_SUMMURY}"
