@@ -8,8 +8,8 @@
 - [x] Section 1
 - [x] Section 2
 - [x] Section 3
-- [wip] Section 4
-- [ ] Section 5
+- [x] Section 4
+- [wip] Section 5
 - [ ] Section 6
 - [ ] Section 7
 - [ ] Section 8
@@ -28,8 +28,8 @@
 - [x] Section 1
 - [x] Section 2
 - [x] Section 3
-- [wip] Section 4
-- [ ] Section 5
+- [x] Section 4
+- [wip] Section 5
 - [ ] Section 6
 - [ ] Section 7
 - [ ] Section 8
