@@ -1,0 +1,13 @@
+name: Job Summury
+on: push
+jobs:
+    log:
+        runs-on: ubuntu-latest
+        steps:
+            - run: |
+                echo "## Shohiiiiiii Title :rocket:" >> "${GITHUB_STEP_SUMMURY}"
+                echo " - first line " >> "${GITHUB_STEP_SUMMURY}"
+                echo """
+                > [!IMPORTANT] 
+                > shohiiiiiii
+                """ >> "${GITHUB_STEP_SUMMURY}"
