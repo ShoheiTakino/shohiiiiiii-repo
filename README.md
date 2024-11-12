@@ -9,8 +9,8 @@
 - [x] Section 2
 - [x] Section 3
 - [x] Section 4
-- [wip] Section 5
-- [ ] Section 6
+- [x] Section 5
+- [wip] Section 6
 - [ ] Section 7
 - [ ] Section 8
 - [ ] Section 9
